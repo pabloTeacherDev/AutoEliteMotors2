@@ -1,0 +1,39 @@
+@media (max-width: 960px) {
+    .grilla-vehiculos {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .destacado-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+    .header-top {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .info-contacto p {
+        text-align: left;
+    }
+
+    .menu-nav {
+        flex-direction: column;
+        align-items: stretch;
+        text-align: center;
+    }
+
+    .grilla-vehiculos {
+        grid-template-columns: 1fr;
+    }
+
+    .acciones-form {
+        flex-direction: column;
+    }
+
+    .btn-principal,
+    .btn-secundario {
+        width: 100%;
+    }
+}

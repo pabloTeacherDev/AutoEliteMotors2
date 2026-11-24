@@ -1,0 +1,33 @@
+.menu-nav a {
+    transition: background-color 0.25s ease, transform 0.2s ease;
+}
+
+.menu-nav a:hover {
+    transform: translateY(-2px);
+}
+
+.grilla-vehiculos > .tarjeta-auto {
+    transition: transform 0.25s ease;
+}
+
+.tarjeta-auto:hover {
+    transform: translateY(-4px);
+}
+
+.campo-form input[type="text"],
+.campo-form input[type="email"],
+.campo-form input[type="tel"],
+.campo-form input[type="date"],
+.campo-form select,
+.campo-form textarea {
+    transition: border-color 0.25s ease;
+}
+
+.btn-principal,
+.btn-secundario {
+    transition: background-color 0.25s ease, transform 0.2s ease;
+}
+
+.btn-principal:hover {
+    transform: translateY(-2px);
+}

@@ -1,0 +1,61 @@
+.encabezado {
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    background-color: var(--azul-idat);
+    color: var(--blanco);
+}
+
+.header-top {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 16px var(--espaciado);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.menu-nav {
+    background-color: #0e1936;
+    padding: 10px var(--espaciado);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.contenedor {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 32px var(--espaciado);
+}
+
+.seccion {
+    margin-bottom: 40px;
+}
+
+.grilla-vehiculos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--espaciado);
+}
+
+.destacado-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    background-color: var(--blanco);
+    border: 1px solid var(--borde);
+    border-radius: var(--radio);
+    padding: var(--espaciado);
+}
+
+.pie-pagina {
+    background-color: var(--azul-idat);
+    color: var(--blanco);
+    text-align: center;
+    padding: 16px var(--espaciado);
+    font-size: 14px;
+}
